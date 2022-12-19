@@ -1,5 +1,5 @@
 {
-    "ignorePatterns": ["./allure-report", "./allure-result"],
+    "ignorePatterns": ["/allure-report/", "/allure-result/"],
     "env": {
         "node": true,
         "browser": true,
