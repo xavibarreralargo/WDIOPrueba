@@ -11,12 +11,16 @@ jobs:
     runs-on: node:latest
     steps:
       - uses: actions/checkout@v3
+      - name: prueba
         run: npm install
+      - name: prueba
         run: npm run lint
   Test:
     name: test
     runs-on: node:latest
     steps:
     - uses: actions/checkout@v3
+    - name: prueba
       run: npm install
+    - name: prueba
       run: npm run wdio
