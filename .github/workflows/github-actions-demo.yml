@@ -23,7 +23,5 @@ jobs:
       - uses: actions/setup-node@v3
       - name: Install all depencies for CI
         run: npm install
-      - name: Install playwright browsers
-        run: npx playwright install --with-deps
       - name: Run tests
-        run: npm run test
+        run: npm run wdio
