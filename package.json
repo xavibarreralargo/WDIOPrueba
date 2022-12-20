@@ -31,7 +31,8 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.ts",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node launcher/launcher.js"
   },
   "dependencies": {
     "allure-commandline": "^2.20.1",
