@@ -61,7 +61,7 @@ export const config: Options.Testrunner = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [
-        {
+        /*{
             // maxInstances can get overwritten per capability. So if you have an in-house Selenium
             // grid with only 5 firefox instances available you can make sure that not more than
             // 5 instances get started at a time.
@@ -73,7 +73,7 @@ export const config: Options.Testrunner = {
             // it is possible to configure which logTypes to include/exclude.
             // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
             // excludeDriverLogs: ['bugreport', 'server'],
-        }/*,
+        },
         {
     
             // maxInstances can get overwritten per capability. So if you have an in-house Selenium
@@ -90,7 +90,7 @@ export const config: Options.Testrunner = {
             // it is possible to configure which logTypes to include/exclude.
             // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
             // excludeDriverLogs: ['bugreport', 'server'],
-        },
+        },*/
         {
     
             // maxInstances can get overwritten per capability. So if you have an in-house Selenium
@@ -98,7 +98,7 @@ export const config: Options.Testrunner = {
             // 5 instances get started at a time.
             maxInstances: 5,
             //
-            browserName: 'msedge',
+            browserName: 'microsoftedge',
             acceptInsecureCerts: true,
             'ms:edgeOptions': {
                 args: ['-headless']
@@ -107,7 +107,7 @@ export const config: Options.Testrunner = {
             // it is possible to configure which logTypes to include/exclude.
             // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
             // excludeDriverLogs: ['bugreport', 'server'],
-        }*/
+        }
     ],
     //
     // ===================
